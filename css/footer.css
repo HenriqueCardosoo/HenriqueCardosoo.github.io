@@ -36,6 +36,25 @@
   color: #8f8f8f;
 }
 
+.back-to-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.back-to-top.show {
+  display: block;
+}
+
 @media (max-width: 800px) {
   .footer-container {
     grid-template-columns: 1fr;

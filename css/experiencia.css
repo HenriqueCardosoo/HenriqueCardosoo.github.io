@@ -35,11 +35,11 @@
 }
 
 .empresa::before {
-  content: "";
+  content: '';
   display: block;
   width: 4px;
   height: 20px;
-  background: linear-gradient(#b6f829, #67dd0a);
+  background: linear-gradient(#be00ff, #e400ff);
   position: absolute; /*para nao quebrar o layout*/
   top: 20px;
   left: -4px;
@@ -100,7 +100,7 @@
     text-align: left;
   }
   .empresa-ano::before {
-    content: "Ano:";
+    content: 'Ano:';
   }
 }
 

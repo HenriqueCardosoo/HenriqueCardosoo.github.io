@@ -18,7 +18,7 @@ export default function initScrollsuave() {
     //   });
   }
 
-  linksInternos.forEach(link => {
+  linksInternos.forEach((link) => {
     link.addEventListener('click', scrollToSection);
   });
   console.log(linksInternos);

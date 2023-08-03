@@ -43,9 +43,21 @@ img {
     gap: 40px;
     padding: 20px;
   }
+  .label {
+    position: absolute;
+    top: -75px;
+    left: 180px;
+  }
   .header a {
     background: #f5f5f5;
     border-radius: 4px;
     font-size: 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  .label {
+    top: -235px;
+    left: 150px;
   }
 }

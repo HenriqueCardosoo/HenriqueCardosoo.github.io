@@ -1,7 +1,8 @@
 body {
-  font-family: "fira sans", arial, sans-serif;
+  font-family: 'fira sans', arial, sans-serif;
   margin: 0px;
   color: #141414;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 h1,

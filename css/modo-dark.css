@@ -1,0 +1,90 @@
+:root {
+  --modo-claro-bg: #fff;
+  --modo-claro-text: #000;
+  --modo-dark-bg: #141414;
+  --modo-dark-text: #f5f5f5;
+}
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.label {
+  background-color: #000;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  position: relative;
+  height: 16px;
+  width: 40px;
+  transform: scale(1);
+}
+
+.label .bola {
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 22px;
+  width: 22px;
+  transform: translateX(0px);
+  transition: transform 0.2s linear;
+}
+
+.fa-moon {
+  color: #f1c40f;
+}
+
+.fa-sun {
+  color: #f39c12;
+}
+
+.checkbox:checked + .label .bola {
+  transform: translateX(24px);
+}
+
+.modo-dark {
+  background-color: #141414;
+  color: #f5f5f5;
+}
+
+.modo-dark .experiencia h2 {
+  color: #f5f5f5;
+}
+
+.modo-dark .experiencia-texto strong {
+  color: #f5f5f5;
+}
+
+.modo-dark .empresa {
+  background-color: #202020;
+}
+
+.modo-dark .empresa-habilidades li {
+  background-color: #242424;
+}
+
+.modo-dark .empresa p {
+  color: #a3a3a3;
+}
+
+.modo-dark .header-menu a {
+  color: #f5f5f5;
+}
+
+.modo-dark .header a {
+  background-color: #202020;
+}
+
+.modo-dark .label {
+  background-color: #f5f5f5;
+}
+
+.modo-dark .bola {
+  background-color: #141414;
+}

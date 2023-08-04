@@ -79,6 +79,7 @@
 
 .modo-dark .header a {
   background-color: #202020;
+  border-radius: 5px;
 }
 
 .modo-dark .label {

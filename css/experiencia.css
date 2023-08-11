@@ -32,6 +32,12 @@
   margin-bottom: 20px;
   border-radius: 4px;
   position: relative;
+  cursor: pointer;
+}
+
+.empresa:hover {
+  background-color: #e3e3e3;
+  transition: 0.3s;
 }
 
 .empresa::before {
@@ -59,6 +65,12 @@
   font-size: 1.125rem;
   line-height: 1.1;
   font-weight: bold;
+  text-decoration: none;
+}
+
+.empresa a:hover {
+  color: #be00ff;
+  transition: 0.3s;
 }
 
 .empresa-texto {

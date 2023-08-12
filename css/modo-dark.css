@@ -67,10 +67,12 @@
 
 .modo-dark .empresa {
   background-color: #202020;
+  transition: background-color 0.3s;
 }
 
 .modo-dark .empresa-habilidades li {
   background-color: #242424;
+  transition: background-color 0.3s;
 }
 
 .modo-dark .empresa p {
@@ -83,6 +85,7 @@
 
 .modo-dark .header-menu a {
   color: #f5f5f5;
+  transition: 0.3s;
 }
 
 .modo-dark .header a {

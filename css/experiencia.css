@@ -21,6 +21,7 @@
 
 .experiencia-texto strong {
   color: #141414;
+  transition: color 0.3s;
 }
 
 .empresa {
@@ -33,6 +34,7 @@
   border-radius: 4px;
   position: relative;
   cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 .empresa:hover {
@@ -92,6 +94,7 @@
   border: 4px;
   background: #ffffff;
   padding: 5px 10px;
+  transition: background-color 0.3s;
 }
 
 @media (max-width: 800px) {

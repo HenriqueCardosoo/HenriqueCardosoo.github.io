@@ -93,6 +93,7 @@
   line-height: 1.4;
   border: 4px;
   background: #ffffff;
+  border-radius: 4px;
   padding: 5px 10px;
   transition: background-color 0.3s;
 }

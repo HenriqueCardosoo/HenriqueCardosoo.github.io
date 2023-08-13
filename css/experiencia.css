@@ -70,6 +70,11 @@
   text-decoration: none;
 }
 
+.empresa a:hover {
+  color: #be00ff;
+  transition: 0.3s;
+}
+
 .empresa-texto {
   font-size: 0.875rem;
   line-height: 1.4;
@@ -111,6 +116,11 @@
   }
   .empresa-ano::before {
     content: 'Ano:';
+  }
+  .empresa a {
+    color: #be00ff;
+    text-decoration: underline;
+    display: inline;
   }
 }
 

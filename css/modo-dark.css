@@ -10,47 +10,34 @@
   position: absolute;
 }
 
-.label {
-  background-color: #000;
-  border-radius: 50px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 5px;
-  position: relative;
-  height: 16px;
-  width: 40px;
-  transform: scale(1);
+.fa-moon {
+  color: #f1c40f;
   transition: 0.3s;
 }
 
-.label .bola {
-  background-color: #fff;
-  border-radius: 50%;
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  height: 22px;
-  width: 22px;
-  transform: translateX(0px);
-  transition: transform 0.2s linear;
+.fas {
+  padding: 10px;
 }
 
-.fa-moon {
-  color: #f1c40f;
+.fas .fas-moon {
+  display: none;
 }
 
 .fa-sun {
   color: #f39c12;
 }
+.modo-dark .hamburger {
+  border-top: 3px solid #fff;
+}
 
-.checkbox:checked + .label .bola {
-  transform: translateX(24px);
+.modo-dark .hamburger::after,
+.modo-dark .hamburger::before {
+  background: #fff;
 }
 
 .modo-dark {
   background-color: #141414;
+  transition: 0.1s;
   color: #f5f5f5;
 }
 
@@ -90,14 +77,19 @@
 }
 
 .modo-dark .header a {
-  background-color: #202020;
+  color: #fff;
   border-radius: 5px;
 }
 
-.modo-dark .label {
-  background-color: #f5f5f5;
+.modo-dark .btn-color-2 {
+  background-color: #fff;
 }
 
-.modo-dark .bola {
-  background-color: #141414;
+.modo-dark .btn {
+  border: none;
+  transition: 0.3s;
+}
+
+.modo-dark .color-p {
+  color: #aeaeae;
 }

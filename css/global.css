@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kumbh+Sans:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap');
+
 body {
-  font-family: 'fira sans', arial, sans-serif;
+  font-family: 'poppins', sans-serif;
   margin: 0px;
   color: #141414;
-  transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 h1,
@@ -20,7 +22,7 @@ ul {
 
 img {
   max-width: 100%;
-  height: auto; /*manater a imagem sem distorcer*/
+  height: auto;
   display: block;
 }
 
@@ -36,6 +38,6 @@ img {
   .subtitulo {
     font-size: 3rem;
     text-transform: capitalize;
-    max-width: initial !important; /*import (FORMAÇÃO) nao recomendado*/
+    max-width: initial !important;
   }
 }

@@ -2,14 +2,20 @@
   max-width: 1200px;
   padding: 40px 20px;
   margin: 0 auto;
-  display: grid;
+  display: flex;
   grid-template-columns: 1fr 2fr;
   gap: 100px;
   align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 80vh;
 }
 
+.teste {
+  height: 100vh;
+}
 .introducao h1 {
-  font-size: 4.5rem;
+  /* font-size: 3rem; */
   line-height: 1.125;
   margin-bottom: 30px;
   position: relative;
@@ -20,31 +26,93 @@
   display: block;
   width: 130px;
   height: 100px;
-  background: url('../img/detalhe.svg') no-repeat center;
+  /* background: url('../img/detalhe.svg') no-repeat center; */
   position: absolute;
   top: -15px;
   left: -40px;
   z-index: -1; /*para colocar o objeto atrás*/
 }
 
-.introducao p {
-  font-size: 1.5rem;
-  color: #525252;
+.profile {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.paragraph-container p {
+  font-weight: 600;
+}
+.paragraph-container {
+  margin: 30px;
+}
+
+.color-p {
+  color: #555557;
+  transition: 0.3s;
+}
+
+.paragraph-1 {
+  font-size: 1rem;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.paragraph-2 {
+  font-size: 1.875rem;
+  margin-top: -20px;
+  margin-bottom: 1rem;
+}
+
+.img-container {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.img-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.btn-color-2 {
+  background: none;
+  border: 1px solid;
+}
+
+.btn-color-1 {
+  background-color: #353535;
+  color: #fff;
+  border: none;
+}
+
+.btn {
+  font-weight: 600;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 2rem;
+  margin: 5px;
+  transition: 0.3s;
 }
 
 @media (max-width: 1000px) {
-  .introducao h1 {
-    font-size: 3rem;
+  .introducao {
+    display: block;
+  }
+  .img-container {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
   }
 }
 
 @media (max-width: 800px) {
   .introducao {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 40px;
-  }
-  .introducao h1 {
-    font-size: 2rem;
   }
   .introducao h1::before {
     width: 30px;
@@ -53,11 +121,21 @@
   }
 }
 
+@media (max-width: 600px) {
+  .title {
+    font-size: 2rem;
+  }
+  .paragraph-2 {
+    font-size: 1.25rem;
+  }
+  .img-container {
+    width: 200px;
+    height: 200px;
+  }
+}
+
 @media (max-width: 400px) {
   .introducao {
     grid-template-columns: 1fr;
-  }
-  .introducao img {
-    display: none;
   }
 }

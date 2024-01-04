@@ -11,9 +11,10 @@
   height: 80vh;
 }
 
-.teste {
+/* .section-main {
   height: 100vh;
-}
+} */
+
 .introducao h1 {
   /* font-size: 3rem; */
   line-height: 1.125;
@@ -113,6 +114,7 @@
   .introducao {
     grid-template-columns: 1fr;
     gap: 40px;
+    height: auto;
   }
   .introducao h1::before {
     width: 30px;

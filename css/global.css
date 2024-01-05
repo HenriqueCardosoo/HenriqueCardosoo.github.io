@@ -7,6 +7,10 @@ body {
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
+.menuOpen {
+  overflow: hidden;
+}
+
 h1,
 h2,
 h3,

@@ -99,6 +99,10 @@
   border-top-color: transparent;
 }
 
+.modo-dark .introducao-social {
+  filter: invert(100%);
+}
+
 @media (max-width: 1000px) {
   .modo-dark .nav-list {
     background: #000;

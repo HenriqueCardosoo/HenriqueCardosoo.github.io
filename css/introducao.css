@@ -11,12 +11,7 @@
   height: 80vh;
 }
 
-/* .section-main {
-  height: 100vh;
-} */
-
 .introducao h1 {
-  /* font-size: 3rem; */
   line-height: 1.125;
   margin-bottom: 30px;
   position: relative;
@@ -31,7 +26,7 @@
   position: absolute;
   top: -15px;
   left: -40px;
-  z-index: -1; /*para colocar o objeto atrás*/
+  z-index: -1;
 }
 
 .profile {
@@ -64,6 +59,19 @@
   font-size: 1.875rem;
   margin-top: -20px;
   margin-bottom: 1rem;
+}
+
+.introducao-social {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.introducao-social img {
+  margin: 0 auto;
+  width: 33px;
+  position: relative;
+  top: 10px;
 }
 
 .img-container {

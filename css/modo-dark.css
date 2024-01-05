@@ -17,6 +17,7 @@
 
 .fas {
   padding: 10px;
+  cursor: pointer;
 }
 
 .fas .fas-moon {
@@ -92,4 +93,14 @@
 
 .modo-dark .color-p {
   color: #aeaeae;
+}
+
+.modo-dark .hamburger.active {
+  border-top-color: transparent;
+}
+
+@media (max-width: 1000px) {
+  .modo-dark .nav-list {
+    background: #000;
+  }
 }

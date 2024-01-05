@@ -70,9 +70,8 @@
     transition: 1s ease-out;
 
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
-    gap: 0;
+    gap: 100px;
     pointer-events: none;
     z-index: 1;
   }

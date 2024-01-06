@@ -1,25 +1,11 @@
 export default function initScrollsuave() {
-  const linksInternos = document.querySelectorAll('.header-menu a[href^="#"]');
+  document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
 
-  function scrollToSection(event) {
-    event.preventDefault();
-    const href = event.currentTarget.getAttribute('href');
-    const section = document.querySelector(href);
-
-    section.scrollIntoView({
-      behavior: 'smooth',
-      block: 'start'
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
     });
-
-    // const topo = section.offsetTop;
-    //   window.scrollTo({
-    //     top: topo,
-    //     behavior: 'smooth'
-    //   });
-  }
-
-  linksInternos.forEach((link) => {
-    link.addEventListener('click', scrollToSection);
   });
-  console.log(linksInternos);
 }

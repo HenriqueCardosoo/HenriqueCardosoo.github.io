@@ -1,9 +1,9 @@
-.formacao {
+.sobre {
   background: #141414;
   color: #ffffff;
 }
 
-.formacao-container {
+.sobre-container {
   max-width: 1200px;
   padding: 120px 20px;
   margin: 0 auto;
@@ -13,7 +13,7 @@
   position: relative;
 }
 
-.formacao-container::after {
+.sobre-container::after {
   content: '';
   display: block;
   width: 130px;
@@ -24,7 +24,7 @@
   left: 20px;
 }
 
-.formacao .subtitulo {
+.sobre .subtitulo {
   color: #000000;
   max-width: 5ch;
 }
@@ -33,7 +33,7 @@
   word-break: normal;
 }
 
-.formacao-texto {
+.sobre-texto {
   font-size: 1.5rem;
   line-height: 1.33;
   max-width: 40ch;
@@ -41,7 +41,7 @@
   color: #a3a3a3;
 }
 
-.formacao-texto strong {
+.sobre-texto strong {
   color: #ffffff;
 }
 
@@ -157,16 +157,16 @@
 }
 
 @media (max-width: 800px) {
-  .formacao-container {
+  .sobre-container {
     grid-template-columns: 1fr;
     padding: 60px 20px;
     gap: 40px;
   }
-  .formacao .subtitulo {
+  .sobre .subtitulo {
     color: #ffffff;
   }
 
-  .formacao-texto {
+  .sobre-texto {
     font-size: 1.25rem;
   }
   .hard-skills h3::before {

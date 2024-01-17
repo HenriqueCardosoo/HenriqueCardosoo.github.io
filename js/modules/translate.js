@@ -1,12 +1,9 @@
 export default function translate() {
-  // translate.js
-
   $(document).ready(function () {
     $('.language ul li a').click(function () {
       const selectedLanguage = $(this).attr('class');
       currentLanguage = selectedLanguage;
 
-      // Remova as classes existentes e adicione a nova classe para o ícone
       $('.language-selected').removeClass('change-pt change-en change-es');
       $('.language-selected').addClass('change-' + selectedLanguage);
 
@@ -62,24 +59,20 @@ export default function translate() {
         pt: 'Projeto em desenvolvimento...',
         en: 'Project under development...'
       },
-      aboutTitle: {
-        pt: 'Sobre',
-        en: 'About'
-      },
-      formacaoTranslate: {
+      aboutTranslate: {
         pt: 'Olá, sou Henrique, um entusiasta da tecnologia de 21 anos, atualmente graduando-me emAnálise e Desenvolvimento de Sistemas na Unicesumar. Além da minha formação acadêmica, estou empenhado em aprimorar minhas habilidades por meio de cursos complementares, com destaque para o curso de Front-End do Origamid.',
 
         en: "Hello, I'm Henrique, a 21-year-old technology enthusiast, currently graduating in Systems Analysis and Development at Unicesumar. In addition to my academic training, I am committed to improving my skills through complementary courses, with emphasis on the Origamid Front-End course."
       },
-      formacaoTranslate2: {
+      aboutTranslate2: {
         pt: 'Atualmente, estudo Sass, React e UI design para me aprimorar e acompanhar as tendências da indústria. Meu foco é consolidar minha carreira na tecnologia, buscando oportunidades de crescimento. Sou reconhecido pela dedicação em evoluir.',
 
         en: 'Currently, I study Sass, React and UI design to improve myself and keep up with industry trends. My focus is to consolidate my career in technology, looking for growth opportunities. I am recognized for my dedication to evolving.'
       },
-      formacaoTranslate3: {
-        pt: 'Tenho interesse em desenvolver soluções inovadoras. Estou pronto para enfrentar desafios, aprender continuamente e alcançar meu sucesso na área de tecnologia. ',
+      aboutTranslate3: {
+        pt: 'Tenho interesse em desenvolver soluções inovadoras. Estou pronto para enfrentar desafios, aprender continuamente e alcançar meu sucesso na área de tecnologia. 📚 🎓 ',
 
-        en: 'I am interested in developing innovative solutions. I am ready to face challenges, continually learn and achieve success in the technology field.'
+        en: 'I am interested in developing innovative solutions. I am ready to face challenges, continually learn and achieve success in the technology field. 📚 🎓'
       },
       technologies: {
         pt: 'Tecnologias',
@@ -98,9 +91,9 @@ export default function translate() {
         en: 'Spanish basic'
       },
       footerText: {
-        pt: 'Estou disponível para novos projetos no momento. Entre em contato comigo e marcamos uma conversa',
+        pt: 'Estou disponível para novos projetos no momento. Entre em contato comigo e marcamos uma conversa 👋',
 
-        en: 'I am available for new projects at the moment. Get in touch with me and we’ll set up a conversation'
+        en: 'I am available for new projects at the moment. Get in touch with me and we’ll set up a conversation 👋'
       },
       footerRight: {
         pt: 'Henrique. Alguns direitos reservados.',

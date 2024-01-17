@@ -48,6 +48,8 @@
 
 .language-selected i {
   display: none;
+  color: #000;
+  transition: 0.3s;
 }
 /* 14:36 */
 .language-selected.change-pt::before {

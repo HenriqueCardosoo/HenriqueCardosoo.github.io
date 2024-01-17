@@ -62,9 +62,9 @@ export default function translate() {
         pt: 'Projeto em desenvolvimento...',
         en: 'Project under development...'
       },
-      formacaoTitulo: {
-        pt: 'FORMAÇÃO',
-        en: 'TRAINING'
+      aboutTitle: {
+        pt: 'Sobre',
+        en: 'About'
       },
       formacaoTranslate: {
         pt: 'Olá, sou Henrique, um entusiasta da tecnologia de 21 anos, atualmente graduando-me emAnálise e Desenvolvimento de Sistemas na Unicesumar. Além da minha formação acadêmica, estou empenhado em aprimorar minhas habilidades por meio de cursos complementares, com destaque para o curso de Front-End do Origamid.',
@@ -81,21 +81,9 @@ export default function translate() {
 
         en: 'I am interested in developing innovative solutions. I am ready to face challenges, continually learn and achieve success in the technology field.'
       },
-      courseIntensive: {
-        pt: 'Cursos intensivos',
-        en: 'Intensive course'
-      },
-      courseHTML: {
-        pt: 'HTML e CSS para Iniciantes',
-        en: 'HTML and CSS for Beginners'
-      },
-      courseJs: {
-        pt: 'JavaScript completo ES6',
-        en: 'Full JavaScript ES6'
-      },
-      studying: {
-        pt: 'Cursando',
-        en: 'Studying'
+      technologies: {
+        pt: 'Tecnologias',
+        en: 'Technologies'
       },
       languages: {
         pt: 'Idioma',

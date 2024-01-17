@@ -29,6 +29,10 @@
   max-width: 5ch;
 }
 
+.aboutTitle {
+  word-break: normal;
+}
+
 .formacao-texto {
   font-size: 1.5rem;
   line-height: 1.33;
@@ -91,7 +95,7 @@
   margin-bottom: 60px;
 }
 
-.formacao-extra h3 {
+.hard-skills h3 {
   font-size: 0.875rem;
   line-height: 1.4;
   color: #8f8f8f;
@@ -100,7 +104,7 @@
   position: relative;
 }
 
-.formacao-extra h3::before {
+.hard-skills h3::before {
   display: block;
   content: '';
   width: 24px;
@@ -118,14 +122,33 @@
   background: url('../img/idiomas.svg') no-repeat center center;
 }
 
-.formacao-extra li {
+.hard-skills li {
   font-size: 1.125rem;
   line-height: 1.1;
   margin-bottom: 20px;
 }
 
-.formacao-extra span {
+.hard-skills span {
   color: #8f8f8f;
+}
+
+.skills-list span {
+  color: #eee0ff;
+  font-size: 18px;
+  padding: 2px 10px;
+  background-color: #be00ff;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.skills-list span:hover {
+  background-color: #e400ff;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
 }
 
 .cursos li {
@@ -146,7 +169,7 @@
   .formacao-texto {
     font-size: 1.25rem;
   }
-  .formacao-extra h3::before {
+  .hard-skills h3::before {
     position: initial;
     margin-bottom: 10px;
   }

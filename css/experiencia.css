@@ -48,10 +48,12 @@
   width: 4px;
   height: 20px;
   background: linear-gradient(#be00ff, #e400ff);
-  position: absolute; /*para nao quebrar o layout*/
+  position: absolute;
   top: 20px;
   left: -4px;
 }
+
+/* #e97e1c, #fb4219 */
 
 .empresa-ano {
   position: absolute;

@@ -1,0 +1,76 @@
+.language {
+  position: relative;
+  /* width: 120px; */
+  /* margin-left: 40px; */
+  font-weight: bold;
+  /* border: 2px solid white; */
+}
+
+.language-selected {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.language-selected::before {
+  content: '';
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url(https://flagsapi.com/BR/flat/32.png);
+  margin-right: 10px;
+}
+
+.language ul {
+  position: absolute;
+  width: 120px;
+  background-color: #fff;
+  border: 1px solid #f8f8f8;
+  padding-top: 10px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.language:hover ul {
+  display: block;
+}
+
+.language ul li {
+  list-style: none;
+}
+
+.language ul li a {
+  display: block;
+  color: #000;
+  padding-top: 5px 10px;
+  text-decoration: none;
+}
+
+.language-selected i {
+  display: none;
+}
+/* 14:36 */
+.language-selected.change-pt::before {
+  background-image: url(https://flagsapi.com/BR/flat/32.png);
+}
+
+.language-selected.change-en::before {
+  background-image: url(https://flagsapi.com/US/flat/32.png);
+}
+
+.language-selected.change-es::before {
+  background-image: url(https://flagsapi.com/ES/flat/32.png);
+}
+
+@media (max-width: 500px) {
+  .language-selected::before {
+    background-image: none;
+  }
+
+  .language-selected::before {
+    width: 0;
+  }
+  .language-selected i {
+    display: block;
+  }
+}

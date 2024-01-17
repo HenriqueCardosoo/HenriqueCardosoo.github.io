@@ -25,31 +25,43 @@
       <nav class="nav">
 
         <ul class="nav-list">
-          <li><a href="#projetos">Projects</a></li>
-          <li><a href="#sobre">About</a></li>
-          <li><a href="#cursos">Experience</a></li>
-          <li><a href="#contato">Contact</a></li>
+          <li><a class="projects" href="#projetos">Projetos</a></li>
+          <li><a class="about" href="#sobre">Sobre</a></li>
+          <li><a class="experience" href="#cursos">Experiencia</a></li>
+          <li><a class="contact" href="#contato">Contato</a></li>
         </ul>
       </nav>
 
+      <div id="btnTranslate" class="language">
+
+        <div class="language-selected">
+          <i id="teste" class="fa-solid fa-language " style="color: #000000;  "></i>
+
+          <!-- pt-BR -->
+        </div>
+        <ul style="display: none;">
+          <li><a href="#" class="pt">Português</a></li>
+          <li><a href="#" class="en">English</a></li>
+          <li><a href="#" class="es">Español</a></li>
+        </ul>
+
+      </div>
       <div>
         <label class="label" for="chk">
           <i id="icon" class="fas fa-moon"></i>
         </label>
 
       </div>
-      <!-- ainda é um protótipo, tenho que analisar como posso enquadrar o modo de language -->
-      <!-- <i class="fa-solid fa-language"></i> -->
       <div class="hamburger"></div>
     </header>
 
     <main class="introducao">
       <div class="img-container">
-        <img src="img/Henrique-portfolio-perfil.jpg" alt="Hernrique Cardoso" width="480" height="640">
+        <img src="img/HenriqueProfilePortfolio.jpg" alt="Hernrique Cardoso" width="480" height="640">
       </div>
 
       <div class="paragraph-container">
-        <p class="paragraph-1 color-p">Olá, eu sou </p>
+        <p class="paragraph-1 color-p titleTranslate">Olá, eu sou </p>
         <h1 class="title">Henrique</h1>
         <p class="paragraph-2 color-p">Frontend Developer</p>
         <div>
@@ -67,15 +79,17 @@
   </section>
 
   <section class="experiencia" id="projetos" aria-label="Experiência">
-    <h2 class="subtitulo">Projetos</h2>
+    <h2 class="subtitulo projectsTranslate">Projetos</h2>
     <div>
-      <p class="experiencia-texto">Desenvolvo pequenos projetos como AUDI RS6 e Bikcraft utilizando apenas <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>.</p>
+      <p class="experiencia-texto experienceTranslate">Desenvolvo pequenos projetos como AUDI RS6 e Bikcraft utilizando apenas <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>.</p>
 
       <div class="empresa rs6">
         <span class="empresa-ano">2023</span>
         <a class="empresa-titulo" href="https://henriquecardosoo.github.io/Audi.github.io/">Audi RS6</a>
-        <span class="empresa-titulo">Projeto</span>
-        <p class="empresa-texto">No projeto Audi RS6 eu trabalhei no desenvolvimento completo do HTML, CSS e JavaScript do site.</p>
+
+        <span class="empresa-titulo translateProject">Projeto</span>
+        <p class="empresa-texto audi">No projeto Audi RS6 eu trabalhei no desenvolvimento completo do HTML, CSS e JavaScript do site.</p>
+
         <ul class="empresa-habilidades">
           <li>HTML</li>
           <li>CSS</li>
@@ -86,8 +100,10 @@
       <div class="empresa">
         <span class="empresa-ano">2023</span>
         <a class="empresa-titulo" href=" https://henriquecardosoo.github.io/apple.github.io/">iPhone 15</a>
-        <span class="empresa-titulo">Projeto</span>
-        <p class="empresa-texto">Projeto em desenvolvimento...</p>
+
+        <span class="empresa-titulo translateProject">Projeto</span>
+        <p class="empresa-texto projectDevelopment">Projeto em desenvolvimento...</p>
+
         <ul class="empresa-habilidades">
           <li>HTML</li>
           <li>CSS</li>
@@ -98,8 +114,10 @@
       <div class="empresa">
         <span class="empresa-ano">2023</span>
         <h3 class="empresa-titulo">Barber</h3>
-        <span class="empresa-titulo">Projeto</span>
-        <p class="empresa-texto">Projeto em desenvolvimento...</p>
+
+        <span id="projectsTitle3" class="empresa-titulo translateProject">Projeto</span>
+
+        <p id="barber" class="empresa-texto projectDevelopment">Projeto em desenvolvimento...</p>
         <ul class="empresa-habilidades">
           <li>Email marketing</li>
           <li>HTML</li>
@@ -112,50 +130,62 @@
 
   <section class="formacao" id="sobre" aria-label="formacao">
     <div class="formacao-container">
-      <h2 class="subtitulo">Formação</h2>
+      <h2 class="subtitulo formacaoTitulo">Formação</h2>
 
       <div>
-        <p class="formacao-texto">
-          Olá, sou Henrique, um entusiasta da tecnologia de 21 anos que atualmente estou cursando <strong>Análise e Desenvolvimento de Sistemas</strong> na Unicesumar. Além disso, investi tempo em aprimorar minhas habilidades através de cursos complementares, incluindo o curso de <strong>Front-End</strong> do Origamid.
+        <p class="formacao-texto formacaoTranslate">
+          Olá, sou <strong>Henrique</strong>, um entusiasta da tecnologia de 21 anos, atualmente <strong>graduando em Análise e Desenvolvimento de Sistemas</strong> na Unicesumar. Além da minha formação acadêmica, estou empenhado em aprimorar minhas habilidades por meio de <strong>cursos complementares</strong>, com destaque para o curso de <strong>Front-End do Origamid</strong>.
         </p>
-        <p class="formacao-texto">
-          Meu grande propósito é estabelecer minha carreira na indústria de <strong>tecnologia</strong>, e estou determinado a buscar oportunidades que me permitam crescer profissionalmente. Sou reconhecido por minha <strong>dedicação incansável</strong>, e meu compromisso constante em evoluir.
+        <p class="formacao-texto formacaoTranslate2">
+
+          Atualmente, estudo <strong>Sass</strong>, <strong>React</strong> e <strong>UI design</strong> para me aprimorar e acompanhar as <strong>tendências da indústria</strong>. Meu foco é consolidar minha carreira na <strong>tecnologia</strong>, buscando <strong>oportunidades de crescimento</strong>. Sou reconhecido pela <strong>dedicação em evoluir</strong>.
+
         </p>
-        <p class="formacao-texto">
-          Meu verdadeiro passion is está em <strong>desenvolver </strong>interfaces incríveis e funcionais, e estou ansioso para contribuir com minha paixão para criar soluções inovadoras. Estou pronto para enfrentar <strong>desafios</strong> e aprender continuamente, enquanto busco minha visão de sucesso na área de tecnologia. 📚🎓
+        <!-- <p class="formacao-texto formacaoTranslate3">
+          Meu grande propósito é consolidar minha carreira na indústria de <strong>tecnologia</strong>, e estou determinado a buscar oportunidades que me permitam crescer profissionalmente. Sou reconhecido por minha <strong>dedicação incansável</strong>, e meu <strong>compromisso constante em evoluir.</strong>
+        </p> -->
+        <p class="formacao-texto formacaoTranslate3">
+          Tenho interesse em desenvolver <strong>soluções inovadoras</strong>. Estou pronto para enfrentar <strong>desafios, aprender continuamente</strong> e alcançar <strong>meu sucesso</strong> na área de <strong>tecnologia</strong>. 📚 🎓
         </p>
-        <ul class="faculdade-lista" id="cursos">
+
+        <!-- <ul class="faculdade-lista" id="cursos">
           <li class="faculdade">
-            <span class="faculdade-tipo">Curso</span>
-            <h3 class="faculdade-curso">HTML e CSS para inicientes</h3>
+            <span class="faculdade-tipo course">Origamid</span>
+            <h3 class="faculdade-curso courseType">HTML e CSS para inicientes</h3>
             <span class="faculdade-instituicao">Origamid</span>
           </li>
+
           <li class="faculdade">
-            <span class="faculdade-tipo">Tecnólogo</span>
-            <h3 class="faculdade-curso">Análise e Desenvolvimento de Sistemas</h3>
+            <span class="faculdade-tipo graduation">Graduação</span>
+            <h3 class="faculdade-curso graduationType">Análise e Desenvolvimento de Sistemas</h3>
             <span class="faculdade-instituicao">Unicesumar</span>
           </li>
+
+
           <li class="faculdade">
-            <span class="faculdade-tipo">Curso</span>
-            <h3 class="faculdade-curso">JavaScript Completo ES6</h3>
+            <span class="faculdade-tipo course">Curso</span>
+            <h3 class="faculdade-curso courseTypeJs">JavaScript Completo ES6</h3>
             <span class="faculdade-instituicao">Origamid</span>
           </li>
-        </ul>
+        </ul> -->
 
         <div class="formacao-extra">
           <div class="cursos">
-            <h3>Cursos intensivos</h3>
+            <h3 class="courseIntensive">Cursos intensivos</h3>
             <ul>
-              <li>HTML e CSS para Iniciantes <span>46h</span></li>
-              <li>JavaScript completo ES6 <span>74h</span></li>
+              <li class="courseHTML">HTML e CSS para Iniciantes <span>46h</span></li>
+              <li class="courseJs">JavaScript completo ES6 <span>74h</span></li>
+              <li class="courseReact">React<span class="studying">Cursando</span></li>
+              <li class="courseSass">Sass<span class="studying">Cursando</span></li>
+              <li class="couseUi">Ui Design<span class="studying">Cursando</span></li>
             </ul>
           </div>
 
           <div class="idiomas">
-            <h3>Idiomas</h3>
+            <h3 class="languages">Idiomas</h3>
             <ul>
-              <li>Inglês <span>basico</span></li>
-              <li>Espanhol <span>basico</span></li>
+              <li class="english">Inglês <span>basico</span></li>
+              <li class="Spanish">Espanhol <span>basico</span></li>
             </ul>
           </div>
         </div>
@@ -165,18 +195,19 @@
 
   <footer class="footer" id="contato">
     <div class="footer-container">
-      <p class="footer-texto">Estou disponível para novos projetos no momento. Entre em contato comigo e marcamos uma conversa 👋</p>
+      <p class="footer-texto footerText">Estou disponível para novos projetos no momento. Entre em contato comigo e marcamos uma conversa 👋</p>
       <ul class="footer-contato">
         <li>henrique.jc2020@gmail.com</li>
         <li>+55 11953848713</li>
         <li><a href="https://instagram.com/henry.cardosoo?igshid=Zjc2ZTc4Nzk=">Instagram</a></li>
       </ul>
-      <p class="footer-copy">Alguns direitos reservados.</p> <a href="#" class="back-to-top"><img src="img/noun-top-1037792.svg"></a>
+      <p class="footer-copy footerRight">Henrique. Alguns direitos reservados.</p> <a href="#" class="back-to-top"><img src="img/noun-top-1037792.svg"></a>
     </div>
   </footer>
 
   <script type="module" src="js/script.js"></script>
   <script src="https://kit.fontawesome.com/05cf54c972.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 </body>
 
 </html>

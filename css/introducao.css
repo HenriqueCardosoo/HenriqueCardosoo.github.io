@@ -86,6 +86,7 @@
   width: 100%;
   height: auto;
   display: block;
+  transform: scale(1.2) translate(20px);
 }
 
 .btn-color-2 {

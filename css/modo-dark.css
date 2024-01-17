@@ -103,6 +103,11 @@
   filter: invert(100%);
 }
 
+.modo-dark .language ul {
+  background-color: #000;
+  border: 1px solid #202020;
+}
+
 @media (max-width: 1000px) {
   .modo-dark .nav-list {
     background: #000;

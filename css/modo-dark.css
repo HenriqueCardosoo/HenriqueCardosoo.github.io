@@ -108,6 +108,10 @@
   border: 1px solid #202020;
 }
 
+.modo-dark .language a {
+  color: #fff;
+}
+
 @media (max-width: 1000px) {
   .modo-dark .nav-list {
     background: #000;

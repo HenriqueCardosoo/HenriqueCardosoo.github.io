@@ -144,6 +144,9 @@
     width: 200px;
     height: 200px;
   }
+  .img-container img {
+    transform: scale(1.2) translate(10px);
+  }
 }
 
 @media (max-width: 400px) {

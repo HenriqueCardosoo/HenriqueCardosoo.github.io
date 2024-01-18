@@ -107,6 +107,11 @@
   border-radius: 2rem;
   margin: 5px;
   transition: 0.3s;
+  cursor: pointer;
+}
+
+.btn-cv {
+  text-decoration: none;
 }
 
 @media (max-width: 1000px) {

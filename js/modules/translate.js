@@ -44,8 +44,8 @@ export default function translate() {
         en: 'PROJECTS'
       },
       experienceTranslate: {
-        pt: 'Desenvolvo pequenos projetos como AUDI RS6 e Bikcraft utilizando apenas HTML, CSS e JavaScript.',
-        en: 'I develop small projects such as AUDI RS6 and Bikcraft using only HTML, CSS and JavaScript.'
+        pt: 'Desenvolvo pequenos projetos como AUDI RS6 e iPhone 15 utilizando apenas HTML, CSS e JavaScript.',
+        en: 'I develop small projects such as AUDI RS6 and iPhone 15 using only HTML, CSS and JavaScript.'
       },
       translateProject: {
         pt: 'Projeto',
@@ -125,7 +125,17 @@ export default function translate() {
       for (const elementClass in elementsToTranslate) {
         if (elementsToTranslate.hasOwnProperty(elementClass)) {
           const translations = elementsToTranslate[elementClass];
-          $('.' + elementClass).text(translations[currentLanguage]);
+          const translatedText = translations[currentLanguage];
+
+          const strongKeywords = ['graduating in Systems Analysis and Development', 'complementary courses', 'Origamid Front-End course', 'Sass', 'Henrique', 'React', 'UI design', 'industry trends', 'technology', 'growth opportunities', 'dedication to evolving', 'innovative solutions', 'challenges', 'continually learn', 'success '];
+          let updatedText = translatedText;
+
+          for (const keyword of strongKeywords) {
+            const regex = new RegExp(`\\b${keyword}\\b`, 'gi');
+            updatedText = updatedText.replace(regex, (match) => `<strong>${match}</strong>`);
+          }
+
+          $('.' + elementClass).html(updatedText);
         }
       }
     }

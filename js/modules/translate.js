@@ -137,7 +137,7 @@ export default function translate() {
           const translatedText = translations[currentLanguage];
 
           if (translatedText) {
-            const strongKeywords = ['graduating in Systems Analysis and Development', 'complementary courses', 'Origamid Front-End course', 'Sass', 'Henrique', 'React', 'UI design', 'industry trends', 'technology', 'growth opportunities', 'dedication to evolving', 'innovative solutions', 'challenges', 'continually learn', 'success '];
+            const strongKeywords = ['graduating in Systems Analysis and Development', 'complementary courses', 'Origamid Front-End course', 'Sass', 'Henrique', 'React', 'UI design', 'industry trends', 'technology', 'growth opportunities', 'dedication to evolving', 'innovative solutions', 'challenges', 'continually learn', 'success ', 'graduación en Análisis y Desarrollo de Sistemas', 'cursos complementarios', 'Curso Origamid Front-End', 'Sass', 'Henrique', 'React', 'Diseño UI', 'tendencias de la industria', 'tecnología', 'crecimiento oportunidades', 'dedicación a la evolución', 'soluciones innovadoras', 'desafíos', 'aprender continuamente', 'éxito'];
             let updatedText = translatedText;
 
             for (const keyword of strongKeywords) {

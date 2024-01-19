@@ -57,11 +57,11 @@ export default function translate() {
         es: 'Proyecto en desarrollo...'
       },
       aboutTranslate: {
-        pt: 'Olá, sou Henrique, um entusiasta da tecnologia de 21 anos, atualmente graduando-me emAnálise e Desenvolvimento de Sistemas na Unicesumar. Além da minha formação acadêmica, estou empenhado em aprimorar minhas habilidades por meio de cursos complementares, com destaque para o curso de Front-End do Origamid.',
+        pt: 'Olá, sou Henrique, um estudante da tecnologia de 21 anos, atualmente graduando em Análise e Desenvolvimento de Sistemas na Unicesumar. Além da minha formação acadêmica, estou empenhado em aprimorar minhas habilidades por meio de cursos complementares, com destaque para o curso de Front-End do Origamid.',
 
-        en: "Hello, I'm Henrique, a 21-year-old technology enthusiast, currently graduating in Systems Analysis and Development at Unicesumar. In addition to my academic training, I am committed to improving my skills through complementary courses, with emphasis on the Origamid Front-End course.",
+        en: "Hello, I'm Henrique, a 21-year-old technology student, currently graduated in Systems Analysis and Development from Unicesumar. In addition to my academic training, I am committed to improving my skills through complementary courses, with emphasis on the Origamida Front-End course.",
 
-        es: 'Hola, soy Henrique, un entusiasta de la tecnología de 21 años, actualmente graduado en Análisis y Desarrollo de Sistemas en Unicesumar. Además de mi formación académica, estoy comprometido a mejorar mis habilidades a través de cursos complementarios, con énfasis en el curso Origamid Front-End.'
+        es: 'Hola, soy Henrique, estudiante de tecnología de 21 años, actualmente graduado en Análisis y Desarrollo de Sistemas en Unicesumar. Además de mi formación académica, estoy comprometido a mejorar mis habilidades a través de cursos complementarios, con énfasis en el curso Origamid Front-End.'
       },
       aboutTranslate2: {
         pt: 'Atualmente, estudo Sass, React e UI design para me aprimorar e acompanhar as tendências da indústria. Meu foco é consolidar minha carreira na tecnologia, buscando oportunidades de crescimento. Sou reconhecido pela dedicação em evoluir.',

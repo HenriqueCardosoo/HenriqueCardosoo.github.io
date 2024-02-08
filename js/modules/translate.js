@@ -47,14 +47,19 @@ export default function translate() {
         es: 'Desarrollo pequeños proyectos como el AUDI RS6 y iPhone 15 utilizando únicamente HTML, CSS y JavaScript.'
       },
       audi: {
-        pt: 'No projeto Audi RS6 eu trabalhei no desenvolvimento completo do HTML, CSS e JavaScript do site.',
-        en: "On the Audi RS6 project I worked on the complete development of the website's HTML, CSS and JavaScript.",
-        es: 'En el proyecto Audi RS6 trabajé en el desarrollo completo del HTML, CSS y JavaScript del sitio web.'
+        pt: 'Contribuí para o desenvolvimento do projeto Audi RS6, liderando a criação do site completo, desde a codificação HTML até a implementação de recursos interativos em JavaScript. Me inspirei no estilo e na usabilidade do site da Audi para garantir uma experiência de alta qualidade para os usuários.',
+        en: 'I contributed to the development of the Audi RS6 project, leading the creation of the complete website, from HTML coding to the implementation of interactive features in JavaScript. I was inspired by the style and usability of the Audi website to ensure a high-quality experience for users.',
+        es: 'Contribuí al desarrollo del proyecto Audi RS6, liderando la creación del sitio web completo, desde la codificación HTML hasta la implementación de funciones interactivas en JavaScript. Me inspiré en el estilo y la usabilidad del sitio web de Audi para garantizar una experiencia de alta calidad para los usuarios.'
       },
-      projectDevelopment: {
-        pt: 'Projeto em desenvolvimento...',
-        en: 'Project under development...',
-        es: 'Proyecto en desarrollo...'
+      apple: {
+        pt: 'Desenvolvi a apresentação do iPhone 15, trabalhando na criação integral do HTML, CSS e JavaScript. Meu objetivo foi criar uma experiência de usuário fluida e moderna, seguindo os padrões de design e usabilidade característicos da marca.',
+        en: "I developed the presentation of the iPhone 15, working on the full creation of HTML, CSS and JavaScript. My goal was to create a fluid and modern user experience, following the brand's characteristic design and usability standards.",
+        es: 'Desarrollé la presentación del iPhone 15, trabajando en la creación completa de HTML, CSS y JavaScript. Mi objetivo era crear una experiencia de usuario fluida y moderna, siguiendo los estándares de diseño y usabilidad característicos de la marca.'
+      },
+      stopwatch: {
+        pt: 'Desenvolvi o projeto Timer por completo, desde o design até a implementação em HTML, CSS e JavaScript. É uma aplicação simples, mas eficaz, criada para fornecer uma solução prática para acompanhar o tempo.',
+        en: 'I developed the Timer project completely, from design to implementation in HTML, CSS and JavaScript. It is a simple yet effective application created to provide a practical solution for tracking time.',
+        es: 'Desarrollé el proyecto Timer completamente, desde el diseño hasta la implementación en HTML, CSS y JavaScript. Es una aplicación sencilla pero eficaz creada para proporcionar una solución práctica para el seguimiento del tiempo.'
       },
       aboutTranslate: {
         pt: 'Olá, sou Henrique, um estudante da tecnologia de 21 anos, atualmente graduando em Análise e Desenvolvimento de Sistemas na Unicesumar. Além da minha formação acadêmica, estou empenhado em aprimorar minhas habilidades por meio de cursos complementares, com destaque para o curso de Front-End do Origamid.',

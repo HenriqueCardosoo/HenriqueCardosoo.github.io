@@ -117,9 +117,10 @@
     width: initial;
     text-align: left;
   }
-  .empresa-ano::before {
-    content: 'Ano:';
-  }
+  /* .empresa-ano::before {
+    content: 'Ano: ';
+  } */
+
   .empresa a {
     color: #be00ff;
     text-decoration: underline;

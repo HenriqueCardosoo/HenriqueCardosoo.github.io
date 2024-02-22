@@ -18,7 +18,6 @@
   display: inline-block;
   width: 30px;
   height: 30px;
-  background-image: url(https://flagsapi.com/BR/flat/32.png);
   margin-right: 10px;
 }
 
@@ -48,21 +47,8 @@
 }
 
 .language-selected i {
-  display: none;
   color: #000;
   transition: 0.3s;
-}
-/* 14:36 */
-.language-selected.change-pt::before {
-  background-image: url(https://flagsapi.com/BR/flat/32.png);
-}
-
-.language-selected.change-en::before {
-  background-image: url(https://flagsapi.com/US/flat/32.png);
-}
-
-.language-selected.change-es::before {
-  background-image: url(https://flagsapi.com/ES/flat/32.png);
 }
 
 @media (max-width: 500px) {

@@ -1,7 +1,7 @@
 export default function initDivLinks() {
   const linkProjetos = document.querySelector('.rs6');
   linkProjetos.addEventListener('click', () => {
-    window.location.href = 'https://henriquecardosoo.github.io/Audi.github.io/';
+    window.location.href = 'https://glamour925.vercel.app/';
   });
 
   const iPhone = document.querySelector('.iphone');
